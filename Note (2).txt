@@ -1,0 +1,64 @@
+KNN Classifire:
+		1. Binary Classifire
+		2. Multy  Classifire
+
+Unique words
+Bag of words
+Stop words
+
+if value of K is lower, then it goes to Overfitting (Memorizing)
+if value of K is medium, then it goes to Understanding (Train and Test are so close to accurate)
+if value of K is upper, then it goes to Underfitting (Very Siplyfied)
+
+Distance: 	
+	1.Euclidean Distance
+	2.Manhattan Distance
+	3.Minkowski Distance
+	4.Cosine    Distance (Cosine Similarity)
+	5.Hamming   Distance
+	6.Jaccard   Distance
+
+Parse Matrix [Maximum values will be 0]
+Dense Matrix [Maximum values will be 1]
+
+Forword Features Selection
+Backword Features Selection
+
+Confution Matrix:
+True Positive Rate
+Precition
+Recall
+F1 Score
+
+For Immbalance Dataset:
+			1) Over Sample
+			2) Under Sample
+			[F1-score, AUC, ROC Curve, log loss]
+
+Classification:
+		Sentiment Analysis (Defined Class)
+Regration:
+	Need to find Class [Use Square Mean]
+
+Bais: More Bais gose to Underfit
+Vibrance: More Bais Vibrance to  Overfit
+
+Lemmatizer
+Vectorizer
+
+PCA(Principal Component Analysis):
+
+1) If number of features are more then data point, then need to implmnt PCA
+	Example: The shape of data set is: 120, 500
+		 There is 120 data point and features are 500
+		 Need to Perform PCA to reduce number of features
+		 Number of featurs should be half of data point
+		 it's meems number of featurs should be 60 instead of 500
+
+2) Before implemnt of PCA, need to perform standardization μTxi
+
+3) Two way to perform PCA:
+			  1) variance maximization method using calculus xiTμi
+			  2) distance minimization method
+
+
